@@ -1,0 +1,49 @@
+﻿# ================================
+# .NET 8 / C# / Visual Studio
+# ================================
+
+# Build directories
+bin/
+obj/
+out/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.pdb
+
+# VS Code
+.vscode/
+
+# NuGet packages
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.cache
+*.swp
+*.DS_Store
+
+# Environment variables / secrets
+.env
+appsettings.Development.json
+
+# Node / frontend (si aplicara)
+node_modules/
+
+# Rider IDE
+.idea/
+
+# JetBrains ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# Publish outputs
+publish/
